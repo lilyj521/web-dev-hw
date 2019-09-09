@@ -1,0 +1,8 @@
+### 1. Briefly describe one way data travels on the internet.
+One way data travels through the internet is through fiber optic cables, as light. Using light, we can send multiple bits simultaneously, at the speed of light. The downside of fiber optic cables is that they can be expensive, and sometimes unreliable, e.g. the 2008 submarine cable disruption.
+### 2. What is the relationship between an IP address and the DNS?
+When you type a url into your browser, your IP address sends that signal to the DNS. The DNS then translates that domain name into an IP address and transmits that back to your computer. Different DNS's are in charge of different domain extensions, e.g. .net and .org.
+### 3. What is a cookie?
+A cookie is like an ID card. It holds data specific to your computer, and the website you're on. Your browser saves this data so it knows your requests are coming from you, and so it can tailor the webpage to you.
+### 4. List the three basic parts of a URL.
+The three basic parts of a URL are the protocol, domain, and path.

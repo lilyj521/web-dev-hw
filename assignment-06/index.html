@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title> Rockin Rudy's </title>
+      <style>
+      table, th, td {border: 2px solid red; border-collapse: collapse; padding: 5px;}
+  </style>
+      <meta charset="UTF-8">
+      <meta name="description" content="Rockin Rudy's page">
+      <meta name="author" content="Lily Johnson">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+  </html>
+<body>
+  <h1> Rockin Rudy's </h1>
+  <p>
+  <address>
+    237 Blaine St, Missoula, MT 59801 <br>
+    (406) 542-0077
+  </address>
+  <a href="mailto:info@rockinrudys.com">E-mail us!</a>
+</p>
+  <p>
+    <table>
+       <tr>
+          <th></th>
+          <th scope="col">Mon-Sat</th>
+          <th scope="col">Sunday</th>
+       </tr>
+       <tr>
+          <th scope="row">Hours</th>
+          <td>9AM-9PM</td>
+          <td>11AM-6PM</td>
+       </tr>
+    </table>
+  </p>
+  <form action="https://www.rockinrudys.com/" method="post">
+    <p>
+      Have Questions/concerns?
+      <br>
+      <textarea name="comments" id="comment-concerns" autofocus>...</textarea>
+    </p>
+    <p>
+      Are you from Missoula or visiting?
+      <br>
+      <input type="radio" name="missoula" value="from missoula" /> I'm from Missoula
+      <br>
+      <input type="radio" name="missoula" value="just visiting" /> I'm just visiting
+      <br>
+  </p>
+  <p>
+    Which colors are your favorites?
+    <br>
+    <input type="checkbox" name="color" value="blue" /> Blue
+    <br>
+    <input type="checkbox" name="color" value="pink" /> Pink
+    <br>
+    <input type="checkbox" name="color" value="purple" /> Purple
+    <br>
+    <input type="checkbox" name="color" value="yellow" /> Yellow
+  </p>
+  <p>
+    <button>
+      <img src="./images/submitbutton.png" alt="submit button" width="100" height="100" />
+    </button>
+  </p>
+</form>
+</body>

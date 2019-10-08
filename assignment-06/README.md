@@ -1,6 +1,6 @@
-1. Forms I've seen on the web are for entering username (text entry) and password (hidden text), on most social media sites, as well as cyberbear and moodle. I've also seen buttons for submitting a google search, or my username and password.
+1. One form I've seen on the internet is the Google searchbox. It's function is to allow the user to type an inquiry into the box. You then use a button to submit the question and receive results.
 
-2. text: google search box
+2. text: entering a username
    selection: multiple choice answers for an online quiz
    button: submit a google search
 

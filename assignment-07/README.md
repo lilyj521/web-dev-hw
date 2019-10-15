@@ -3,4 +3,4 @@
 2. What is "alt text," and why do we use it?
     Alt text is text that describes an image or video, to accomodate those who are visually impaired and/or use screen readers.
 3. Free Response: Summarize your work cycle for this assignment.
-    For this assignment, I began with reading the topic for this week on the website. Then I began following along with the steps to complete the assignment. I created a rough outline for myself, and then I chose my song. I then went back through and added in all the specific content from the song. Then I uploaded my assigment to Atom.
+    For this assignment, I began with reading the topic for this week on the website. Then I began following along with the steps to complete the assignment. I created a rough outline for myself, and then I chose my song. I then went back through and added in all the specific content from the song. Then I uploaded my assigment to Github.

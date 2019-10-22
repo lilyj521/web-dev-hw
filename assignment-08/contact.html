@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> contact </title>
+      <meta charset="UTF-8">
+      <meta name="description" content="contact">
+      <meta name="author" content="Lily Johnson">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <style>
+      table, th, td {border: 2px solid #FAC3D8; border-collapse: collapse; padding: 5px; margin-left: auto; margin-right: auto;}
+        body {
+          background-color: powderblue;
+          text-align: center;
+          font-family: sans-serif;
+        }
+        .title {
+          background-color: #FAC3D8;
+          width: 400px;
+          margin: auto;
+          padding: 10px;
+          font-family: sans-serif;
+          font-size: large;
+        }
+        .content {
+          width: 600px;
+          margin: auto;
+          padding: 10px;
+        }
+        nav {
+          color: black;
+        }
+
+      </style>
+  </head>
+</html>
+
+<body>
+  <nav>
+    <a href="./index.html" style="color: black;">Home</a>
+    <a href="./about.html" style="color: black;">About</a>
+    <a href="./contact.html" style="color: black;">Contact</a>
+  </nav>
+  <p>
+    <div id="contact" class="title">
+      <h1> CONTACT </h1>
+    </div>
+  </p>
+  <div id="info" class="content">
+    <table>
+       <tr>
+          <th scope="row">Phone</th>
+          <th scope="col">(406) 243-0211</th>
+       </tr>
+       <tr>
+          <th scope="row">E-mail</th>
+          <td>lily2.johnson@umconnect.umt.edu</td>
+       </tr>
+       <tr>
+          <th scope="row">Address</th>
+          <td>32 Campus Drive, Missoula, MT 59812</td>
+       </tr>
+    </table>
+    <p>
+        <form action="https://www.umt.edu/" method="post">
+        Questions?
+        <br>
+        <textarea name="comments" id="comment-concerns" autofocus>...</textarea>
+    </p>
+    <p>
+      Have you made apple pie before?
+      <br>
+      <input type="radio" name="yes" value="yes" /> Yes
+      <br>
+      <input type="radio" name="no" value="no" /> No
+      <br>
+  </p>
+  <p>
+    What kind of pie do you prefer?
+    <br>
+    <input type="checkbox" name="pie" value="apple" /> Apple
+    <br>
+    <input type="checkbox" name="pie" value="blueberry" /> Blueberry
+    <br>
+    <input type="checkbox" name="pie" value="pumpkin" /> Pumpkin
+    <br>
+    <input type="checkbox" name="pie" value="other" /> Other
+  </p>
+  <p>
+    <button>
+      <input type="submit" name="submit" value="Submit" />
+    </button>
+  </p>
+  </div>
+</body>

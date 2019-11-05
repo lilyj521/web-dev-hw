@@ -1,0 +1,43 @@
+
+body {
+   background-color: rgb(133, 233, 188);
+   font-family: sans-serif;
+}
+
+.stripe {
+  height: 5px;
+  width: 100%;
+  background: rgb(219, 169, 200);
+}
+
+.stripetwo {
+  height: 5px;
+  width: 100%;
+  background: rgba(219, 169, 200, 0.5);
+}
+/* This is for the rectangle between the two images */
+.rectangle {
+  height: 40px;
+  width: 100%;
+  background: rgb(148, 226, 237);
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+h1 {
+   color: rgb(96, 138, 209);
+   text-align: center !important;
+   font-family: impact;
+   font-size: 70px;
+}
+/* I didn't end up using a paragraph element, but I left the code just in case. */
+p {
+   color: rgb(96, 138, 209);
+   font-size: 30px;
+   text-align: center !important;
+}

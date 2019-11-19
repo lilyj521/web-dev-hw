@@ -1,0 +1,31 @@
+* {
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: rgb(231, 242, 247);
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.links:hover {
+  background-color: rgb(235, 135, 159);
+}
+
+.links {
+  display: inline;
+  clear: both;
+  background-color: rgb(246, 171, 189);
+}
+.header {
+  background-color: rgb(246, 171, 189);
+  width: 100%;
+  padding: 30px;
+  height: 10%;
+  position: fixed;
+  border: 2px solid rgb(233, 139, 162);
+}
+.paragraph {
+  padding: 50px
+}

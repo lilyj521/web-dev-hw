@@ -47,6 +47,7 @@ img {
 
 .links:visited {
   color: #45433d;
+  text-decoration: none;
 }
 
 .links:hover {
@@ -58,6 +59,8 @@ img {
   line-height: 40px;
   text-transform:lowercase;
   margin-left: 15px;
+  color: #45433d !important;
+  text-decoration: none !important;
 
 }
 

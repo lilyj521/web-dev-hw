@@ -1,0 +1,99 @@
+
+.dropdown {
+  font-family: 'Slabo 27px', serif;
+  background-color: #eda47a;
+  color: #ffffff;
+  padding: 3px;
+  font-size: 27px;
+  text-align: center;
+  min-width: 260px
+}
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: 1.2;
+  font-size: 40px;
+  color: #f7c1a2;
+}
+
+.buttons {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 260px;
+  text-align: center;
+  font-size: 27px;
+}
+
+.buttons a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.drop:hover .buttons {
+  font-family: 'Slabo 27px', serif;
+  display: block;
+
+}
+
+body {
+  line-height: 1.5;
+  text-align: left;
+  background-color: #fcf4ef;
+  color: #eda47a;
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.links {
+  font-family: 'Slabo 27px', serif;
+  text-align: left !important;
+  line-height: 40px;
+  text-transform:lowercase;
+  margin-left: 15px;
+  color: #000000 !important;
+  text-decoration: none !important;
+
+}
+.about {
+  margin-right: 450px
+}
+
+.profile {
+  padding-left: 60px;
+  padding-bottom: 600px;
+  padding-top: 0px;
+  position: fixed;
+  width: 500px
+}
+
+.header {
+  color: rgb(255, 255, 255);
+  font-family: 'Monoton', cursive !important;
+  background-color: rgb(247, 190, 209);
+  width: 250px;
+  padding-top: 30px !important;
+  padding: 30px;
+  height: 100%;
+  position: fixed;
+  text-align: left;
+  font-size: 57px
+}
+
+.paragraph {
+  font-family: 'Slabo 27px', serif;
+  text-align: left;
+  margin-left: 285px;
+  padding-top: 20px !important;
+  padding: 50px;
+}
